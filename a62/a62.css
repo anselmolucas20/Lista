@@ -1,0 +1,71 @@
+body    {
+    margin: 0;
+    padding: 0;
+}
+
+.divprincipal   {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.divcentral {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.divbanner {
+    padding: 10px;
+    text-align: center;
+}
+p   {
+    font-size: large;
+    font-weight: 600;
+}
+
+.divmenusuperior {
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
+
+}
+
+
+.divmenusuperior a {
+    border-bottom: 1px solid black;
+    padding: 0 10px; 
+    text-decoration: none; 
+}
+
+.divesquerda    {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background-color: gray;
+    width: 500px;
+    padding: 10px;
+    height: 700px;
+}
+
+.divconteudo    {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+img  {
+    width: 40%;
+    height: auto;
+    margin-left: 20%;
+}
+
+p2  {
+    margin-left: 20%;
+}
+
+.divesquerda a   {
+    text-decoration: none;
+    background-color: greenyellow;
+    padding: 5px;
+    color: black;
+}

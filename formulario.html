@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<style>
+    body    {
+        background-color:   whitesmoke;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+    label,input,select {
+            flex: 1;
+        }
+    
+    
+    form    {
+        background-color:  gray;
+            padding: 5px;
+            width: 70vh;
+    }
+    
+    div {
+        display: flex;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+        
+    
+</style>
+<body>
+    <form action="" method="post">
+        <h1>PIZZA ON-LINE</h1>
+    <style>
+        h1  {
+            text-align: center;
+            
+        }
+        label   {
+            display: block;
+        }
+        
+    </style>
+    <div class="NOME">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome">
+    </div>
+     <br> <br>
+     <div class="telefone">
+        <label for="nome">TELEFONE:</label>
+        <input type="text" id="nome" name="nome">
+    </div>
+     <br> <br>
+     <div class="tamanho">
+        <label for="nome">TAMANHO:</label>
+        <select id="tamanho" name="tamanho">
+            <option value="pequeno">Pequeno</option>
+            <option value="medio">Médio</option>
+            <option value="grande">Grande</option>
+        </select>  
+    </div>
+    <br> <br>   
+    <div class="ingredientes">
+        <label for="nome">Ingredientes (tecle CRTL) para selecionar:</label>
+        <select name="ingredientes" id="ingredientes" multiple size="7">
+            <option value="oregano">oregano</option>
+            <option value="cebola">cebola</option>
+            <option value="Ovos cozidos">Ovos cozidos</option>
+            <option value="calabresa">calabresa</option>
+            <option value="mussarela">mussarela</option>
+            <option value="presunto">presunto</option>
+            <option value="pimentao">pimentão</option>
+        </select>
+    </div>
+    <div>
+        <label>Borda de catupiry?</label>
+        <div style="flex: 1;"></style>
+            <input type="radio" id="sim" name="border" value="sim">
+            <label class="radio-label" for="sim">Sim</label>
+            <input type="radio" id="nao" name="border" value="nao">
+            <label class="radio-label" for="nao">Não</label>
+        </div>
+    </div>  
+    <div>
+        <label>Observações:</label>
+        <input type="text" name="observation" id="observation">
+    </div>
+</form>
+</body>
+</html>
+    </form>
+</body>
+</html>
