@@ -27,7 +27,8 @@ p   {
 .divmenusuperior {
     text-align: center;
     padding: 10px;
-    background-color: gray;
+    background-color: rgb(107, 107, 107);
+    
 
 }
 
@@ -56,11 +57,6 @@ p   {
 img  {
     width: 40%;
     height: auto;
-    margin-left: 20%;
-}
-
-p2  {
-    margin-left: 20%;
 }
 
 .divesquerda a   {
